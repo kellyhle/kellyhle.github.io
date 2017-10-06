@@ -45,3 +45,10 @@ h1{
     color:white;
     text-align: center;
 }
+table{ 
+   margin:auto;
+}
+ol{
+    width:180px;
+    margin:auto;
+}
