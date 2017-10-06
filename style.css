@@ -1,0 +1,47 @@
+@font-face{
+    font-family:kelly;
+src:url(fonts/luna.ttf);
+}
+body{
+        background-image:url(images/background.png);
+        background-color: #edf3ff;
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:black;
+        text-align:center;
+}
+h1{
+    font-family:"kelly", luna;
+    text-align: center;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    background-color:white;
+    overflow: hidden;
+    text-align: center;
+}
+#nav li{
+    float:left;
+    text-align: center;
+}
+#nav li a {
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 14px 16px;
+   text-decoration: none;
+   text-align: center;
+}
+#nav li a:hover {
+    background-color: #555;
+    color:white;
+    text-align: center
+}
+#nav li a:active {
+    background-color:white;
+    color:white;
+    text-align: center;
+}
