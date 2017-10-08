@@ -2,8 +2,13 @@
     font-family:kelly;
 src:url(fonts/luna.ttf);
 }
+@font-face{
+    font-family:le;
+    src: url(fonts/LemonMilk.otf);
+}
 body{
         background-image:url(images/background.png);
+        font-family:"le";
         background-color: #edf3ff;
         background-size:100%;
         background-repeat: no-repeat;
@@ -12,7 +17,7 @@ body{
         text-align:center;
 }
 h1{
-    font-family:"kelly", luna;
+    font-family:"kelly",luna;
     text-align: center;
 }
 #nav {
@@ -22,10 +27,12 @@ h1{
     background-color:white;
     overflow: hidden;
     text-align: center;
+    font-family: "le";
 }
 #nav li{
     float:left;
     text-align: center;
+    font-family: "le";
 }
 #nav li a {
     display:block;
@@ -34,16 +41,19 @@ h1{
     padding: 14px 16px;
    text-decoration: none;
    text-align: center;
+   font-family: "le";
 }
 #nav li a:hover {
     background-color: #555;
     color:white;
-    text-align: center
+    text-align: center;
+    font-family: "le";
 }
 #nav li a:active {
     background-color:white;
     color:white;
     text-align: center;
+    font-family: "le";
 }
 table{ 
    margin:auto;
